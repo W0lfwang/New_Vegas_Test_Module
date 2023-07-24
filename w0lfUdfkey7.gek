@@ -1,9 +1,52 @@
 scn w0lfUdfkey7
 
 int ikey
+int ichanged
 
 Begin Function {ikey}
 
-    PrintDebug "key " + $ikey + " pressed" 
+    ; PrintDebug "flag 11" 
+    ; ichanged = player.GetNifBlockFlag "PipboyOff:0" 0
+    ; PrintDebug $ichanged
+
+    ; PrintDebug "flag 1" 
+    ; ichanged = player.GetNifBlockFlag "PipboyOff:0" 1
+    ; PrintDebug $ichanged
+
+    ; PrintDebug "flag 2" 
+    ; ichanged = player.GetNifBlockFlag "PipboyOff:0" 2
+    ; PrintDebug $ichanged
+
+    ; PrintDebug "flag 3" 
+    ; ichanged = player.GetNifBlockFlag "PipboyOff:0" 3
+    ; PrintDebug $ichanged
+
+    ; PrintDebug "flag 4" 
+    ; ichanged = player.GetNifBlockFlag "PipboyOff:0" 4
+    ; PrintDebug $ichanged
+
+    ; PrintDebug "flag 5" 
+    ; ichanged = player.GetNifBlockFlag "PipboyOff:0" 5
+    ; PrintDebug $ichanged
+
+    ; PrintDebug "flag 6" 
+    ; ichanged = player.GetNifBlockFlag "PipboyOff:0" 6
+    ; PrintDebug $ichanged
+
+    ; PrintDebug "flag 7" 
+    ; ichanged = player.GetNifBlockFlag "PipboyOff:0" 7
+    ; PrintDebug $ichanged
+
+    ; PrintDebug "flag 8" 
+    ; ichanged = player.GetNifBlockFlag "PipboyOff:0" 8
+    ; PrintDebug $ichanged
+
+    ; PrintDebug "flag 9" 
+    ; ichanged = player.GetNifBlockFlag "PipboyOff:0" 9
+    ; PrintDebug $ichanged
+
+    ; PrintDebug "flag 10" 
+    ; ichanged = player.GetNifBlockFlag "PipboyOff:0" 10
+    ; PrintDebug $ichanged
 
 end

@@ -1,9 +1,16 @@
 scn w0lfUdfKey6
 
 int ikey
+int ichanged
 
 Begin Function {ikey}
 
-    PrintDebug "key " + $ikey + " pressed" 
+    PrintDebug "pc2"
+    player.SetNifBlockFlag "PipboyOff:0" 0 1 2
+    UpdatePlayer3D
+
+    PrintDebug "flag 0" 
+    ichanged = player.GetNifBlockFlag "PipboyOff:0" 0 2
+    PrintDebug $ichanged
 
 end
