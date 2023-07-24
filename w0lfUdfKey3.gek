@@ -1,0 +1,9 @@
+scn w0lfUdfKey3
+
+int ikey
+
+Begin Function {ikey}
+
+    PrintDebug "key " + $ikey + " pressed" 
+
+end

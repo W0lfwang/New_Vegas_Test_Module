@@ -1,0 +1,27 @@
+scn w0lfScrStart
+
+;===Games First Loads===
+
+Begin menumode 4
+if GetGameRestarted
+
+	SetEventHandler "OnKeyDown:82" w0lfUdfKey0 ;  Num0
+	SetEventHandler "OnKeyDown:79" w0lfUdfKey1 ;  Num1
+	SetEventHandler "OnKeyDown:80" w0lfUdfKey2 ;  Num2
+	SetEventHandler "OnKeyDown:81" w0lfUdfKey3 ;  Num3
+	SetEventHandler "OnKeyDown:75" w0lfUdfKey4 ;  Num4
+	SetEventHandler "OnKeyDown:76" w0lfUdfKey5 ;  Num5
+	SetEventHandler "OnKeyDown:77" w0lfUdfKey6 ;  Num6
+	SetEventHandler "OnKeyDown:71" w0lfUdfKey7 ;  Num7
+	SetEventHandler "OnKeyDown:72" w0lfUdfKey8 ;  Num8
+	SetEventHandler "OnKeyDown:73" w0lfUdfKey9 ;  Num9
+	print "W0lf Test module started"
+
+endif
+end
+
+;===Stop Quest===
+Begin Gamemode
+	StopQuest w0lfQstStart
+	print "W0lf atarting quest killed"
+end

@@ -1,0 +1,18 @@
+scn w0lfUdfKey0
+
+int ikey
+
+Begin Function {ikey}
+
+if GetDBMode == 0
+    SetDebugMode 1
+    Console "tdt"
+    PrintDebug "key " + $ikey + " pressed" 
+    PrintDebug "W0lf Debug mode enabled"
+else
+    PrintDebug "W0lf debug mode finished"
+    SetDebugMode 0
+    Console "tdt"
+endif
+
+end
