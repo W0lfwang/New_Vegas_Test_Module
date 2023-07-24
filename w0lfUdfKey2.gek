@@ -5,5 +5,12 @@ int ikey
 Begin Function {ikey}
 
     PrintDebug "key " + $ikey + " pressed"
+    PrintDebug "Hide visibility"
+    ToggleBipedSlotVisibility 2 0 ; UpperBody
+    ToggleBipedSlotVisibility 3 0 ; LeftHand
+    ToggleBipedSlotVisibility 4 0 ; RightHand
+    ToggleBipedSlotVisibility 5 0 ; Weapon
+    ToggleBipedSlotVisibility 6 0 ; PipBoy
+    player.ReloadEquippedModels
 
 end

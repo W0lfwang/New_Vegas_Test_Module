@@ -5,5 +5,7 @@ int ikey
 Begin Function {ikey}
 
     PrintDebug "key " + $ikey + " pressed"
+    PrintDebug "ReloadEquippedModels"
+    player.ReloadEquippedModels 6
 
 end
