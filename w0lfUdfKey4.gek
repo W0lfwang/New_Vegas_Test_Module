@@ -5,12 +5,18 @@ int ichanged
 
 Begin Function {ikey}
 
-    PrintDebug "no pc"
-    player.SetNifBlockFlag "PipboyOff:0" 0 1
-    UpdatePlayer3D
+    ; PrintDebug "no pc"
+    ; player.SetNifBlockFlag "PipboyOff:0" 0 1
+    ; UpdatePlayer3D
 
-    PrintDebug "flag 0" 
-    ichanged = player.GetNifBlockFlag "PipboyOff:0" 0
-    PrintDebug $ichanged
+    ; PrintDebug "flag 0" 
+    ; ichanged = player.GetNifBlockFlag "PipboyOff:0" 0
+    ; PrintDebug $ichanged
+
+    ; ichanged = player.RemoveNifBlock "PipboyOff:0"
+    ; PrintDebug "player.RemoveNifBlock PipboyOff:0 - Was I succsesfull: " + $ichanged
+
+    ; ichanged =  player.RenameNifBlock "PipboyOff:0" "Another"
+    ; PrintDebug "player.RenameNifBlock PipboyOff:0 Another - Was I succsesfull: " + $ichanged
 
 end
