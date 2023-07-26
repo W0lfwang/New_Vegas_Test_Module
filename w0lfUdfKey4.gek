@@ -19,4 +19,8 @@ Begin Function {ikey}
     ; ichanged =  player.RenameNifBlock "PipboyOff:0" "Another"
     ; PrintDebug "player.RenameNifBlock PipboyOff:0 Another - Was I succsesfull: " + $ichanged
 
+    SetUIFloat "HUDMainMenu\Hokeys\justify_center_text\visible" 1
+	SetUIFloat "HUDMainMenu\Hokeys\hotkey_selector\_IconVisible" 1
+	SetUIFloat "HUDMainMenu\Hokeys\hotkey_selector\visible" 1
+
 end

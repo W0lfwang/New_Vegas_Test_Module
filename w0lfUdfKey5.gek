@@ -16,4 +16,7 @@ Begin Function {ikey}
     ; ichanged = player.RemoveNifBlock "PipboyOn:0"
     ; PrintDebug "player.RemoveNifBlock PipboyOn:0 - Was I succsesfull: " + $ichanged
 
+    SetUIFloat "HUDMainMenu\Hokeys\justify_center_text\visible" 0
+	SetUIFloat "HUDMainMenu\Hokeys\hotkey_selector\_IconVisible" 0
+	SetUIFloat "HUDMainMenu\Hokeys\hotkey_selector\visible" 0
 end
