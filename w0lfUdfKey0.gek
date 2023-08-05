@@ -1,6 +1,7 @@
 scn w0lfUdfKey0
 
 int ikey
+int ichanged
 
 Begin Function {ikey}
 
