@@ -1,0 +1,144 @@
+$Bip01
+$Bip01 NonAccum
+$Bip01 Pelvis
+$Bip01 L Thigh
+$Bip01 L Calf
+$Bip01 L Foot
+$Bip01 L Toe0
+$Bip01 R Thigh
+$Bip01 R Calf
+$Bip01 R Foot
+$Bip01 R Toe0
+$Bip01 Spine
+$Bip01 Spine1
+$Bip01 Spine2
+$Bip01 Neck
+$Bip01 Neck1
+$Bip01 Head
+$HeadAnims
+$HeadAnims:0
+$BSFaceGenNiNodeBiped
+$FaceGenMouth
+$FaceGenTeethLower
+$FaceGenTeethUpper
+$FaceGenTongue
+$FaceGenHairNoHat
+$FaceGenHairHat
+$FaceGenEyeLeft
+$FaceGenEyeRight
+$Bip01 L Clavicle
+$Bip01 L UpperArm
+$Bip01 LUpArmTwistBone
+$Bip01 L Forearm
+$Bip01 L ForeTwist
+$PipBoy 00015038
+$PipBoyButton03
+$PipBoyButton03:0
+$PipBoyButton03:1
+$PipBoyButton02
+$PipBoyButton02:0
+$PipBoyButton02:1
+$PipBoyButton01
+$PipBoyButton01:0
+$PipBoyButton01:1
+$StatsGlow
+$StatsGlow:0
+$ItemsGlow
+$ItemsGlow:0
+$DataGlow
+$DataGlow:0
+$TabKnob
+$TabKnob:0
+$RadNeedle
+$RadNeedle:0
+$RadNeedle:1
+$glare
+$glare:0
+$pipboyscreen
+$pipboyscreen:0
+$Omni01
+$PipboyLightEffect
+$PipboyLightEffect:0
+$ScrollKnob
+$ScrollKnob:0
+$ScreenLit
+$ScreenLit:8
+$PipBoyArm:0
+$PipBoyArm:1
+$Bip01 L Hand
+$Bip01 L Thumb1
+$Bip01 L Thumb11
+$Bip01 L Thumb12
+$Bip01 L Finger1
+$Bip01 L Finger11
+$Bip01 L Finger12
+$Bip01 L Finger2
+$Bip01 L Finger21
+$Bip01 L Finger22
+$Bip01 L Finger3
+$Bip01 L Finger31
+$Bip01 L Finger32
+$Bip01 L Finger4
+$Bip01 L Finger41
+$Bip01 L Finger42
+$StatsFrame
+$StatsFrame_Body
+$Bip01 R Clavicle
+$Bip01 R UpperArm
+$Bip01 RUpArmTwistBone
+$Bip01 R Forearm
+$Bip01 R ForeTwist
+$Bip01 R Hand
+$Bip01 R Thumb1
+$Bip01 R Thumb11
+$Bip01 R Thumb12
+$Bip01 R Finger1
+$Bip01 R Finger11
+$Bip01 R Finger12
+$Bip01 R Finger2
+$Bip01 R Finger21
+$Bip01 R Finger22
+$Bip01 R Finger3
+$Bip01 R Finger31
+$Bip01 R Finger32
+$Bip01 R Finger4
+$Bip01 R Finger41
+$Bip01 R Finger42
+$Bip01 R ForeTwistDriver
+$Bip01 LPauldron
+$Bip01 RPauldron
+$Weapon
+$Weapon WeapNVVarmintRifle (0007EA24)
+$##VRBolt
+$##VRBolt:0
+$##VRTrigger
+$##VRTrigger:0
+$ProjectileNode
+$ShellCasingNode
+$##VRClip
+$##VRClip:0
+$##VRClip:1
+$##SightingNode
+$VarmintRifle:0
+$Camera3rd
+$UpperBody 000A6F77
+$UpperBody
+$PipboyOn
+$BlownOns
+$BlownOffs
+$PipboyOn
+$Arms02
+$Object01
+$Object05
+$Object06
+$Object07
+$Object08
+$Object09
+$meatneck
+$meathead
+$LeftHand 00025B83
+$LeftHandPipBoyGlove:0
+$LeftHandPipBoyGlove:1
+$RightHand 000B8AA3
+$BSFaceGenNiNodeSkinned
+$FaceGenFace

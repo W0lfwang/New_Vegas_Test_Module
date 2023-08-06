@@ -2,9 +2,18 @@ scn w0lfUdfKey9
 
 int ikey
 int ichanged
+array_var av_log
 
 Begin Function {ikey}
 
-    PrintDebug "key " + $ikey + " pressed" 
+    ; PrintDebug "key " + $ikey + " pressed"
+
+    ; ; This command saves all the niff child nodes on the player to the
+    ; ; Data/Output/GetChildBlocks.txt file
+    ; ; ---
+    ; PrintDebug "Save all child nodes"
+    ; av_log = player.GetChildBlocks
+    ; ichanged = WriteArrayToFile "Data/Output/GetChildBlocks.txt" 0 av_log
+    ; PrintDebug "file written " + $ichanged
 
 end

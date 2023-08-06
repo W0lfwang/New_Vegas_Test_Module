@@ -2,9 +2,17 @@ scn w0lfUdfKey8
 
 int ikey
 int ichanged
+float fscale
 
 Begin Function {ikey}
 
-    PrintDebug "key " + $ikey + " pressed" 
+    ; PrintDebug "key " + $ikey + " pressed" 
+
+    ; This will scale up the StatsFrame model
+    ; ---
+    fscale = player.GetNifBlockScale "StatsFrame"
+    fscale += 0.01
+    player.SetNifBlockScale "StatsFrame" fscale
+    PrintDebug "StatFrame Scale " + $fscale
 
 end

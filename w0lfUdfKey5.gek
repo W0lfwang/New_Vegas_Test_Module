@@ -2,8 +2,18 @@ scn w0lfUdfKey5
 
 int ikey
 int ichanged
+int iIsCounter
 
 Begin Function {ikey}
+
+    ; We see if the frame was already given, if not, we give it
+    ; ---
+    if ModelHasBlock PlayerRef "StatsFrame"
+        PrintDebug "I'm already Here"
+    else
+        PrintDebug "Attatch mesh"
+        AttachModel PlayerRef 3 "Bip01 L Forearm|W0lf\counter.nif"        
+    endif
 
     ; PrintDebug "pc1"
     ; player.SetNifBlockFlag "PipboyOff:0" 0 1 1
@@ -19,5 +29,13 @@ Begin Function {ikey}
     ; SetUIFloat "HUDMainMenu\Hokeys\justify_center_text\visible" 0
 	; SetUIFloat "HUDMainMenu\Hokeys\hotkey_selector\_IconVisible" 0
 	; SetUIFloat "HUDMainMenu\Hokeys\hotkey_selector\visible" 0
+
+    ; if ModelHasBlock PlayerRef 
+    ; PrintDebug "Attatch mesh"
+    ; ; AttachModel PlayerRef 3 "Bip01 Head|*_SNIG*clutter\junk\tincan01.nif"
+    ; ; ichanged = AttachModel PlayerRef 3 "Bip01 Head|W0lf\counter.nif"
+    ; ichanged = AttachModel PlayerRef 3 "Bip01 L Forearm|W0lf\counter.nif"
+    ; PrintDebug "Model attatched?" + $ichanged
+
 
 end

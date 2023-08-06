@@ -2,18 +2,21 @@ scn w0lfUdfKey2
 
 int ikey
 int ichanged
+float fscale
+
 
 Begin Function {ikey}
 
-    PrintDebug "key " + $ikey + " pressed"
+    ; PrintDebug "key " + $ikey + " pressed"
 
-    PrintDebug "Attatch mesh"
-    ; GetChildBlocks
-    ; AttachModel PlayerRef 3 "Bip01 Head|*_SNIG*clutter\junk\tincan01.nif"
-    ; ichanged = AttachModel PlayerRef 3 "Bip01 Head|W0lf\counter.nif"
-    ichanged = AttachModel PlayerRef 3 "Bip01 Head|W0lf\counter.nif"
-    PrintDebug $ichanged
-
+    ; This will scale down the StatsFrame model
+    ; ---
+    if ModelHasBlock PlayerRef "StatsFrame"
+        fscale = player.GetNifBlockScale "StatsFrame"
+        fscale -= 0.01
+        player.SetNifBlockScale "StatsFrame" fscale
+        PrintDebug "StatFrame Scale " + $fscale
+    endif
 
     ; PrintDebug "Hide visibility"
     ; ToggleBipedSlotVisibility 2 0 ; UpperBody

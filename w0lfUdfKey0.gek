@@ -5,10 +5,11 @@ int ichanged
 
 Begin Function {ikey}
 
+; PrintDebug "key " + $ikey + " pressed"
+
 if GetDBMode == 0
     SetDebugMode 1
     Console "tdt"
-    PrintDebug "key " + $ikey + " pressed" 
     PrintDebug "W0lf Debug mode enabled"
 else
     PrintDebug "W0lf debug mode finished"

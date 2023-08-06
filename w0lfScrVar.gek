@@ -1,3 +1,4 @@
 scn w0lfScrVar
 
 int ichanged
+int iFrameMode
